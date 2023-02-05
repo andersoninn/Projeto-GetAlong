@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Método Mobile Fist*/
+
+
+/*CRES DO PROJETO:
+Branco: #ffffff
+Preto: #000000
+Laranja escuro: #ff6927
+Laranja claro: #ffa983
+Azul claro: #40c7ff
+Vermelho: ff1800
+*/
+
+/*Root */
+:root{
+    --cor-botao:#ff6927;
+    --color-azul-fundo: #40c7ff;
+    --cor-cronograma-curso: #ffa983;
+    --fundo-do-site:#ffffff;
+    --cor-da-letra:#000000
+}
+
+body{
+   
+}
