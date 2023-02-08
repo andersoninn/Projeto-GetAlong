@@ -56,9 +56,9 @@ main{
 #topo{
   background: #ffa983 url(../imagens/imagens/topo.png) no-repeat;
   background-size: contain;
-  background-position: center center;
-  width: 768px;
-  height: 390px;
+  background-position: top left;
+  height: 768px;
+  width: 100%;
 }
 #topo > div#slogan{
   background-color: rgba(255, 255, 255, 0.249);
@@ -94,51 +94,51 @@ main{
 
 .linha-laranja{
   background-color: #ff6927;
-  width: 768px;
   height: 50px;
+  width: 100%px;
 }
 
 #cronograma{
   background-color: gray;
-  width: 768px;
-  height: 250px;
+  height: 768px;
+  width: 100%;
 }
 
 .linha-azul{
   background-color: #40c7ff;
-  width: 768px;
   height: 50px;
+  width: 100%px;
 }
 
 #certificados{
   background-color: rgb(165, 164, 164);
-  width: 768px;
-  height: 250px;
+  height: 768px;
+  width: 100%;
 }
 
 
 #pessoas{
   background-color: gray;
-  width: 768px;
-  height: 250px;
+  height: 768px;
+  width: 100%;
 }
 
 #iframes{
   background-color: rgb(165, 164, 164);
-  width: 768px;
-  height: 250px;
+  height: 768px;
+  width: 100%;
 }
 
 #empresas{
   background-color: gray;
-  width: 768px;
-  height: 250px;
+  height: 768px;
+  width: 100%;
 }
 
 #formulario{
-background-color: rgb(165, 164, 164);
-  width: 768px;
-  height: 250px;
+  background-color: rgb(165, 164, 164);
+  height: 768px;
+  width: 100%;
 }
 
 footer{
