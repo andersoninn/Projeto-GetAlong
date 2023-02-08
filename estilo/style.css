@@ -43,7 +43,7 @@ Vermelho: ff1800
 html,body{
   background-color: var(--fundo-do-site);
   height: 100vh;
-  width: 100vw;
+  
 }
 
 main{
