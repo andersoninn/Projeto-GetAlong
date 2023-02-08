@@ -48,8 +48,8 @@ html,body{
 
 main{
   position: relative;
-  height: 90vh;
-  width: 90vw;
+  height: 100vh;
+  width: 96vw;
 }
 
 
@@ -67,7 +67,7 @@ main{
   height: 148px;
 
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 10%;
 }
 
@@ -77,7 +77,7 @@ main{
   width: 148px;
   height: 148px;
   position: absolute;
-  top: 18%;
+  top: 16%;
   right: 0%;
 }
 
@@ -93,57 +93,80 @@ main{
 
 .linha-laranja{
   background-color: #ff6927;
-  height: 50px;
+  height: 30px;
   width: 100%px;
 }
 
 #cronograma{
   background-color: gray;
-  height: 768px;
+  height: 228px;
   width: 100%;
 }
 
 .linha-azul{
   background-color: #40c7ff;
-  height: 50px;
+  height: 30px;
   width: 100%px;
 }
 
 #certificados{
-  background-color: rgb(165, 164, 164);
-  height: 768px;
+  background: url(../imagens/imagens/bandeira-en.png);
+  background-size: cover;
+  height: 228px;
   width: 100%;
 }
 
 
 #pessoas{
-  background-color: gray;
-  height: 768px;
+  background: url(../imagens/imagens/sobre.png) no-repeat center bottom;
+  background-size: cover;
+  height: 280px;
   width: 100%;
+}
+
+#pessoas > h2{
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 1em;
+}
+
+#pessoas > p{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 0.9em;
+  text-align: justify;
+}
+#pessoas > p#autor{
+  padding-top: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: right;
+  font-size: 0.9em;
 }
 
 #iframes{
   background-color: rgb(165, 164, 164);
-  height: 768px;
+  height: 228px;
   width: 100%;
 }
 
 #empresas{
   background-color: gray;
-  height: 768px;
+  height: 228px;
   width: 100%;
 }
 
 #formulario{
   background-color: rgb(165, 164, 164);
-  height: 768px;
+  height: 228px;
   width: 100%;
 }
 
 footer{
   background-color: var(--color-azul-fundo);
-  width: 768px;
-  height: 50px;
+  height: 228px;
+  width: 100%;
   font-size: 0.8em;
   text-align: center;
   color:var(--fundo-do-site);
