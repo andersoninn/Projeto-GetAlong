@@ -54,9 +54,9 @@ main{
 
 
 #topo{
-  background-image: url(../imagens/imagens/topo.png);
+  background: #ffa983 url(../imagens/imagens/topo.png) no-repeat;
   background-size: contain;
-  background-color: #ffa983;
+  background-position: center center;
   width: 768px;
   height: 390px;
 }
