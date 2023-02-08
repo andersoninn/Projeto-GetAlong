@@ -55,41 +55,40 @@ main{
 
 #topo{
   background: #ffa983 url(../imagens/imagens/topo.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top left;
-  height: 768px;
+  height: 228px;
   width: 100%;
 }
 #topo > div#slogan{
-  background-color: rgba(255, 255, 255, 0.249);
+  background-color: rgba(255, 255, 255, 0);
   color: var(--fundo-do-site);
-  width: 250px;
-  height: 150px;
+  width: 148px;
+  height: 148px;
 
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 20%;
+  left: 10%;
 }
 
 #topo > div#logo{
-  background-color: rgba(255, 255, 255, 0.249);
+  background-color: rgba(255, 255, 255, 0);
   color: var(--fundo-do-site);
-  width: 250px;
-  height: 150px;
+  width: 148px;
+  height: 148px;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 18%;
+  right: 0%;
 }
 
 #topo > div#logo > img{
   position: relative;
-  left: 20%;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 #topo > div > p{
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 .linha-laranja{
