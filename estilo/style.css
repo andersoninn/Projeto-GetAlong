@@ -41,9 +41,17 @@ Vermelho: ff1800
 }
 
 html,body{
-  height: 90vh;
+  background-color: var(--fundo-do-site);
+  height: 100vh;
   width: 100vw;
 }
+
+main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
 
 #topo{
   background-image: url(../imagens/imagens/topo.png);
@@ -51,6 +59,37 @@ html,body{
   background-color: #ffa983;
   width: 768px;
   height: 390px;
+}
+#topo > div#slogan{
+  background-color: rgba(255, 255, 255, 0.249);
+  color: var(--fundo-do-site);
+  width: 250px;
+  height: 150px;
+
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+#topo > div#logo{
+  background-color: rgba(255, 255, 255, 0.249);
+  color: var(--fundo-do-site);
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+#topo > div#logo > img{
+  position: relative;
+  left: 20%;
+  width: 150px;
+  height: 150px;
+}
+
+#topo > div > p{
+  font-size: 2.5em;
 }
 
 .linha-laranja{
