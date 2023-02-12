@@ -252,17 +252,40 @@ Alinhamento - "alin-cronograma2"*/
   font-size: 2em;
   font-weight: bolder;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   padding: 4% 10% 0% 10%;
-
 }
+
+#contadores > #cem{
+  padding: 0px 2px;
+}
+
+#contadores > #dezmil{
+  padding: 0px 10px;
+}
+#contadores > #mil{
+  padding: 0px 0px;
+}
+
+
 #desc-contadores{
   font-size: 0.85em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0% 10% 5% 10%;
 }
+#desc-contadores > #n-certificados{
+  padding: 0px 0px;
+}
+#desc-contadores > #n-aulas{
+  padding: 0px 0px;
+}
+#desc-contadores > #n-alunos{
+  padding: 0px 20px;
+}
+
+
 
 #iframes > #depoimentos{
   padding: 2% 10%;
