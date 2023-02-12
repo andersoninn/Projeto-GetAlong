@@ -247,6 +247,27 @@ Alinhamento - "alin-cronograma2"*/
   font-size: 0.85em;
   text-align: justify;
 }
+#contadores{
+  color: var(--cor-botao);
+  font-size: 2em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 4% 10% 0% 10%;
+
+}
+#desc-contadores{
+  font-size: 0.85em;
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 10% 5% 10%;
+}
+
+#iframes > #depoimentos{
+  padding: 2% 10%;
+  text-align: center;
+}
 
 #iframes > #iframe{
   background-color: rgb(252, 250, 250);
