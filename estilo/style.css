@@ -308,12 +308,11 @@ Alinhamento - "alin-cronograma2"*/
   content: '';
   display: block;
   height: 2px;
-  width: 80%;
+  width: 90%;
   background-color: black;
   position: relative;
-
-  padding-left: 40px;
-  padding-right: 10px;
+  left: 7%;
+  right: 7%;
   
 }
 
