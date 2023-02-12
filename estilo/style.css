@@ -301,14 +301,28 @@ Alinhamento - "alin-cronograma2"*/
   background-color: rgb(252, 250, 250);
   height: 228px;
   width: 100%;
+  padding: 0% 11.5%;
+}
 
-  padding: 0% 10%;
+#empresas::before{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  position: relative;
+
+  padding-left: 40px;
+  padding-right: 10px;
+  
 }
 
 #empresas{
   background-color: gray;
+  position: absolute;
   height: 228px;
   width: 100%;
+  padding: 10px;
 }
 
 #formulario{
