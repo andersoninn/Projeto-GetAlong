@@ -77,8 +77,6 @@ main{
   height: 100px;
   width: 100px;
   color: var(--fundo-do-site);
-
-
 }
 
 #topo > div#logo{
@@ -116,6 +114,79 @@ main{
   background-color: rgb(255, 255, 255);
   height: 228px;
   width: 100%;
+  font-size: 0.8em;
+  padding: 10px;
+
+}
+#cronograma > #alin-cronograma1{
+  display: flex;
+  align-items: center;
+}
+
+#cronograma > #alin-cronograma2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+/*
+------------------------------------------------------------
+ Alinhamento - "alin-cronograma1"*/
+#cronograma > #alin-cronograma1 > #entrevista{
+  padding: 10px;
+  width: 200px;
+}
+#cronograma > #alin-cronograma1 > #entrevista >h2{
+  background-color: #ffa983;
+}
+#cronograma > #alin-cronograma1 > #entrevista > p{
+  display: none;
+}
+
+#cronograma > #alin-cronograma1 > #inicio{
+  padding: 10px;
+  width: 200px;
+}
+#cronograma > #alin-cronograma1 > #inicio >h2{
+  background-color: #ffa983;
+}
+#cronograma > #alin-cronograma1 > #inicio >p{
+  display: none;
+}
+
+#cronograma > #alin-cronograma1 > #emissao{
+  padding: 10px;
+  width: 200px;
+}
+#cronograma > #alin-cronograma1 > #emissao >h2{
+  background-color: #ffa983;
+}
+#cronograma > #alin-cronograma1 > #emissao >p{
+  display: none;
+}
+/*
+-------------------------------------------------------------
+Alinhamento - "alin-cronograma2"*/
+#cronograma > #alin-cronograma2 #planejamento{
+  padding: 10px;
+  width: 200px;
+}
+#cronograma > #alin-cronograma2 #planejamento >h2{
+  background-color: #839cff;
+}
+#cronograma > #alin-cronograma2 > #planejamento > p{
+  display: none;
+}
+
+#cronograma > #alin-cronograma2 #conclusao{
+  padding: 10px;
+  width: 200px;
+}
+#cronograma > #alin-cronograma2 > #conclusao >h2 {
+  background-color: #839cff;
+}
+#cronograma > #alin-cronograma2 > #conclusao >p{
+  display: none;
 }
 
 .linha-azul{
