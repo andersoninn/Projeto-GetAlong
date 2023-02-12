@@ -66,7 +66,7 @@ main{
   align-items: flex-end; 
 
   padding: 10%;
-  padding-bottom: 10px;
+  padding-bottom: 35px;
 }
 #topo > div#slogan{
   background-color: rgba(185, 181, 181, 0);
@@ -196,10 +196,14 @@ Alinhamento - "alin-cronograma2"*/
   display: none;
 }
 
-.linha-azul{
+#linha-azul1{
   background-color: #40c7ff;
   height: 30px;
   width: 100%px;
+}
+#linha-azul1 > img{
+  height: 42px;
+
 }
 
 #certificados{
@@ -211,6 +215,17 @@ Alinhamento - "alin-cronograma2"*/
   width: 100%;
 }
 
+#linha-azul2{
+  background-color: #40c7ff;
+  height: 30px;
+  width: 100%px;
+}
+#linha-azul2 > img{
+  background-color: #40c7ff;
+  height: 42px;
+  width: 100%px;
+  position:;
+}
 
 #pessoas{
   background: url(../imagens/imagens/sobre.png) #f1f1f1 no-repeat center bottom;
