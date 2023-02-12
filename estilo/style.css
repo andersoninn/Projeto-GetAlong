@@ -71,8 +71,11 @@ main{
 #topo > div#slogan{
   background-color: rgba(185, 181, 181, 0);
   color: var(--fundo-do-site);
-  height: 90px;
-  width: 160px;
+  height: 100px;
+  width: 200px;
+}
+#topo > div#slogan > p{
+  font-size: 1.8em;
 }
 
 #topo > div#barra-reta{
@@ -82,14 +85,16 @@ main{
   font-weight: lighter;
   text-align: center;
   height: 100px;
-  width: 100px;  
+  width: 10px;  
 }
 
 #topo > div#logo{
   background-color: rgba(255, 255, 255, 0);
-  color: var(--fundo-do-site);
-  width: 100px;
   height: 100px;
+  width: 200px;
+
+  padding-left: 90px;
+  
   
 }
 
@@ -307,7 +312,8 @@ Alinhamento - "alin-cronograma2"*/
 }
 
 #formulario{
-  background-color: rgb(165, 164, 164);
+  background-image: url(../imagens/imagens/header-portugal.jpg);
+  background-size: cover;
   height: 228px;
   width: 100%;
 }
