@@ -43,13 +43,14 @@ Vermelho: ff1800
 html,body{
   background-color: var(--fundo-do-site);
   height: 100vh;
+  width: 95vw;
   
 }
 
 main{
   position: relative;
   height: 100vh;
-  width: 96vw;
+  width: 97vw;
 }
 
 
@@ -61,24 +62,33 @@ main{
   width: 100%;
 }
 #topo > div#slogan{
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(185, 181, 181, 0.762);
   color: var(--fundo-do-site);
-  width: 148px;
-  height: 148px;
-
+  height: 90px;
+  width: 160px;
+  
   position: absolute;
   top: 18%;
   left: 10%;
 }
 
-#topo > div#logo{
-  background-color: rgba(255, 255, 255, 0);
+#top > div#barra-reta{
+  background-color: var(--fundo-do-site);
+  height: 100px;
+  width: 100px;
   color: var(--fundo-do-site);
-  width: 148px;
-  height: 148px;
+
+
+}
+
+#topo > div#logo{
+  background-color: rgba(255, 255, 255, 0.551);
+  color: var(--fundo-do-site);
+  width: 100px;
+  height: 100px;
   position: absolute;
-  top: 16%;
-  right: 0%;
+  top: 16.5%;
+  right: 10%;
 }
 
 #topo > div#logo > img{
@@ -92,13 +102,18 @@ main{
 }
 
 .linha-laranja{
-  background-color: #ff6927;
+  background-color: var(--cor-botao);
   height: 30px;
   width: 100%px;
 }
 
+.linha-laranja > img{
+  height: 40.5px;
+  width: auto;
+}
+
 #cronograma{
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   height: 228px;
   width: 100%;
 }
@@ -118,14 +133,14 @@ main{
 
 
 #pessoas{
-  background: url(../imagens/imagens/sobre.png) no-repeat center bottom;
+  background: url(../imagens/imagens/sobre.png) #f1f1f1 no-repeat center bottom;
   background-size: cover;
   height: 280px;
   width: 100%;
 }
 
 #pessoas > h2{
-  padding-top: 5%;
+  padding-top: 2%;
   padding-left: 10%;
   font-size: 1em;
 }
@@ -134,7 +149,7 @@ main{
   padding-top: 2%;
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 0.9em;
+  font-size: 0.85em;
   text-align: justify;
 }
 #pessoas > p#autor{
