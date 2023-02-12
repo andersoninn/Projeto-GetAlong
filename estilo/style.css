@@ -106,7 +106,7 @@ main{
 .linha-laranja{
   background-color: var(--cor-botao);
   height: 30px;
-  width: 100%px;
+  width: 100%;
 }
 
 .linha-laranja > img{
@@ -218,24 +218,24 @@ Alinhamento - "alin-cronograma2"*/
 #linha-azul2{
   background-color: #40c7ff;
   height: 30px;
-  width: 100%px;
+  width: 100%;
 }
 #linha-azul2 > img{
-  background-color: #40c7ff;
-  height: 42px;
-  width: 100%px;
-  position:;
+  height: 40.7px;
+  width: auto;
+  padding-left: 32.5px;
+ 
 }
 
 #pessoas{
   background: url(../imagens/imagens/sobre.png) #f1f1f1 no-repeat center bottom;
   background-size: cover;
-  height: 280px;
+  height: 285px;
   width: 100%;
 }
 
 #pessoas > h2{
-  padding-top: 2%;
+  padding-top: 4%;
   padding-left: 10%;
   font-size: 1em;
 }
